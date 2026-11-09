@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="blackmarket"
+version="2.0.0"
+displayName="Black Market"
+authors="kiyoske"
+description='''Black market economy: organs, loans, collectors, police, gangs, auctions, reputation.''' 
+[[dependencies.blackmarket]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.blackmarket]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
